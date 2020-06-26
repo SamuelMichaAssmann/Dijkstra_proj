@@ -27,7 +27,7 @@ public class datawork {
             for (int i = 1; i < subcity.length; i++) {
                 String value = subcity[i];
                 String[] dist = value.split("-");
-                Double cost = 85d;
+                Double cost = Double.parseDouble(dist[2]);
                 newNode.addPeers(new Edge<>(dist[0],  cost));
             }
             dataDijkstra.addNode(newNode);
