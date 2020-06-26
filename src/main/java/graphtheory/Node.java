@@ -33,9 +33,10 @@ public class Node<T> {
     @Override
     public String toString(){
         StringBuilder s = new StringBuilder();
-        s.append((String) point).append("->");
+        s.append("\n");
+        s.append((String) point).append("->\n");
         for (Edge<T> t:peers) {
-            s.append(t.toString()).append(",");
+            s.append(t.toString()).append("\n");
         }
         return s.toString();
     }

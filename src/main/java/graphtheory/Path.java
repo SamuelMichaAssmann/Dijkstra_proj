@@ -42,9 +42,9 @@ public class Path<T> {
     }
 
     public void print() {
-        System.out.println("The Path from '" + this.startPoint.toString() + "' to '"
-                + this.endPoint.toString() + "' has a cost of " + this.totalCost
-                + " and has the following route:");
+        System.out.println(this.startPoint.toString() + " -> "
+                + this.endPoint.toString() + "\n->| " + this.totalCost
+                + " km |<-\n\nRoute:");
 
         System.out.print("   " + this.startPoint.toString() + " => ");
         for (T point : this.layoverPoints) {

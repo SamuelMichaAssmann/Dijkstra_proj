@@ -1,10 +1,1 @@
-Frankfurt#Mannheim-85d#Würzburg-217d#Kassel-173d
-Mannheim#Frankfurt-85d#Karlsruhe-80d
-Würzburg#Frankfurt-217d#Erfurt-186d#Nürnberg-103d
-Stuttgart#Nürnberg-183d
-Kassel#Frankfurt-173d#München-502d
-Karlsruhe#Mannheim-80d#Augsburg-250d
-Erfurt#Würzburg-186d
-Nürnberg#Würzburg-103d#Stuttgart-183d#München-167d
-Augsburg#Karlsruhe-250d#München-84d
-München#Augsburg-84d#Nürnberg-167d#Kassel-502d
+Oberzent#Mannheim-85d#Stuttgart-17d#Kassel-173d

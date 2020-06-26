@@ -25,6 +25,8 @@ public class dataimport {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        System.out.println(s.toString());
         return s.toString();
     }
 }
