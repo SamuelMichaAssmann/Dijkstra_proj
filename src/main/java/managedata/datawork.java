@@ -10,7 +10,7 @@ import java.net.URL;
 /**
  * Data Structure to save one Edge between Nodes in a Graph
  *    edge = (de)Kante   d.h. Verbindung
- * Created by Samuel on 16.06.2016
+ * Created by Samuel on 16.06.2020
  */
 
 public class datawork {

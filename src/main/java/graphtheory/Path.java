@@ -7,9 +7,9 @@ import java.util.List;
 
 /**
  * Data Structure to store Details about a Path, specially suited for paths representing a route
- * Created by Samuel on 16.06.2016
+ * Created by Samuel on 16.06.2020
  */
- 
+
 public class Path<T> {
     private final T               startPoint;
     private final T               endPoint;
