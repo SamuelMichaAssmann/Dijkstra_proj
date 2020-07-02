@@ -33,11 +33,7 @@ public class datawork {
         }
 
 
-        newNode = new Node<String>("Frankfurt");
-        newNode.addPeers(new Edge<>("Mannheim",  85d));
-        newNode.addPeers(new Edge<>("Würzburg",  217d));
-        newNode.addPeers(new Edge<>("Kassel",    173d));
-        dijkstra.addNode(newNode);
+
         return dijkstra;
     }
 }

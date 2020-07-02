@@ -71,7 +71,10 @@ class Main {
         System.out.println("-------------------------------------");
 
         // make the magic happen:
-        dijkstra.compute("Oberzent", "Stuttgart").print();
+        dijkstra.compute("Frankfurt", "Stuttgart").print();      //--->infinity
+        System.err.println("Finito");
+        System.exit(0);
+        //dijkstra.compute("Frankfurt", "Stuttgart").print();
     }
 
 }
